@@ -1,0 +1,39 @@
+﻿
+===== PROGRAMA 4: ALERTAS =====
+ Fecha del sistema: 2026-10-19
+ 1. Ver alertas (stock bajo / por vencer)
+ 2. Ver productos, stock y lotes
+ 3. Simular que pasan unos días
+ 4. Ejecutar pruebas con resultados esperados
+  5. Configurar umbral de stock de un producto
+ 0. Salir
+Opcion (0 a 5): 
+########## PRUEBAS - ALERTAS ##########
+
+--- Alertas ---
+  [VENCIMIENTO] BEB-001 lote DEMO-BEB-001-01 de 5 u., vence 2026-10-23: vence en 4 día(s)
+  [AMARILLO] HEL-006 Paleta de leche unidad: 2/5
+  [ROJO] LEC-013 Leche en polvo 800 g: 0/5
+  [AMARILLO] YOG-009 Yogur bebible mora 1 L: 2/5
+  [OK]    Cantidad de alertas -> esperado: 4 | obtenido: 4
+  [OK]    Stock 5 -> hay alerta -> esperado: True | obtenido: True
+  [OK]    Stock 6 -> no hay alerta -> esperado: False | obtenido: False
+  [OK]    Stock 0 -> hay alerta -> esperado: True | obtenido: True
+  [OK]    Vence en 5 días -> hay alerta -> esperado: True | obtenido: True
+  [OK]    Vence en 6 días -> no hay alerta -> esperado: False | obtenido: False
+  [OK]    Venció ayer -> hay alerta -> esperado: True | obtenido: True
+  [OK]    No vence nunca -> no hay alerta -> esperado: False | obtenido: False
+  [OK]    Alertas 18 días después -> esperado: 5 | obtenido: 5
+
+Resultado: 9 de 9 pruebas correctas.
+
+===== PROGRAMA 4: ALERTAS =====
+ Fecha del sistema: 2026-10-19
+ 1. Ver alertas (stock bajo / por vencer)
+ 2. Ver productos, stock y lotes
+ 3. Simular que pasan unos días
+ 4. Ejecutar pruebas con resultados esperados
+  5. Configurar umbral de stock de un producto
+ 0. Salir
+Opcion (0 a 5): Hasta luego.
+

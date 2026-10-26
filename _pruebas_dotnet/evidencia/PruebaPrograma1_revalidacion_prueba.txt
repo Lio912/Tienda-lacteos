@@ -1,0 +1,30 @@
+﻿
+===== PROGRAMA 1: CREAR CLIENTE =====
+ 1. Crear cliente
+ 2. Ver clientes
+ 3. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 3): 
+########## PRUEBAS - CREAR CLIENTE ##########
+  [OK]    Teléfono +59161680120 -> esperado: True | obtenido: True
+  [OK]    Teléfono con letras -> esperado: False | obtenido: False
+  [OK]    Teléfono muy corto -> esperado: False | obtenido: False
+  [OK]    Email vacío (es opcional) -> esperado: True | obtenido: True
+  [OK]    Email correcto -> esperado: True | obtenido: True
+  [OK]    Email sin @ -> esperado: False | obtenido: False
+  [OK]    Cliente nuevo: código -> esperado: CU2610-00104 | obtenido: CU2610-00104
+  [OK]    Cantidad de clientes -> esperado: 5 | obtenido: 5
+  [OK]    Nombre repetido (otras mayúsculas) -> esperado: True | obtenido: True
+  [OK]    Teléfono inválido no crea cliente -> esperado: True | obtenido: True
+  [OK]    Email inválido no crea cliente -> esperado: True | obtenido: True
+  [OK]    Cantidad de clientes (sigue igual) -> esperado: 5 | obtenido: 5
+  [OK]    Siguiente código -> esperado: CU2610-00105 | obtenido: CU2610-00105
+
+Resultado: 13 de 13 pruebas correctas.
+
+===== PROGRAMA 1: CREAR CLIENTE =====
+ 1. Crear cliente
+ 2. Ver clientes
+ 3. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 3): Hasta luego.

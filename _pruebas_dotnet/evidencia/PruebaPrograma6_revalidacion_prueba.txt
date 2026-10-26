@@ -1,0 +1,35 @@
+﻿
+===== PROGRAMA 6: RESERVAS =====
+ 1. Crear reserva
+ 2. Cancelar reserva
+ 3. Ver reservas
+ 4. Ver productos y stock
+ 5. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 5): 
+########## PRUEBAS - RESERVAS ##########
+  [OK]    Disponible al inicio -> esperado: 30 | obtenido: 30
+  [OK]    N° de la primera reserva -> esperado: 1 | obtenido: 1
+  [OK]    Disponible tras reservar 10 -> esperado: 20 | obtenido: 20
+  [OK]    El stock total no cambia -> esperado: 30 | obtenido: 30
+  [OK]    Cancelar la reserva -> esperado: True | obtenido: True
+  [OK]    Disponible tras cancelar -> esperado: 30 | obtenido: 30
+  [OK]    Cancelar otra vez -> esperado: False | obtenido: False
+  [OK]    Estado de reserva expirada -> esperado: EXPIRADA | obtenido: EXPIRADA
+  [OK]    Stock disponible tras expirar -> esperado: 30 | obtenido: 30
+  [OK]    Reservar más que el stock -> esperado: True | obtenido: True
+  [OK]    Reservar todo el stock -> esperado: 0 | obtenido: 0
+  [OK]    Reservar 1 más (ya no hay disponible) -> esperado: True | obtenido: True
+  [OK]    Cancelar una reserva que no existe -> esperado: False | obtenido: False
+  [OK]    Reservas activas -> esperado: 1 | obtenido: 1
+
+Resultado: 14 de 14 pruebas correctas.
+
+===== PROGRAMA 6: RESERVAS =====
+ 1. Crear reserva
+ 2. Cancelar reserva
+ 3. Ver reservas
+ 4. Ver productos y stock
+ 5. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 5): Hasta luego.

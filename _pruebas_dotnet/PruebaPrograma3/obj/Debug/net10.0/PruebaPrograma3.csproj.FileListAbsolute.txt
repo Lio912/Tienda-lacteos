@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\bin\Debug\net10.0\PruebaPrograma3.exe
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\bin\Debug\net10.0\PruebaPrograma3.deps.json
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\bin\Debug\net10.0\PruebaPrograma3.runtimeconfig.json
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\bin\Debug\net10.0\PruebaPrograma3.dll
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\bin\Debug\net10.0\PruebaPrograma3.pdb
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\obj\Debug\net10.0\PruebaPrograma3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\obj\Debug\net10.0\PruebaPrograma3.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\obj\Debug\net10.0\PruebaPrograma3.AssemblyInfo.cs
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\obj\Debug\net10.0\PruebaPrograma3.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\obj\Debug\net10.0\PruebaPrograma3.dll
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\obj\Debug\net10.0\refint\PruebaPrograma3.dll
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\obj\Debug\net10.0\PruebaPrograma3.pdb
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\obj\Debug\net10.0\PruebaPrograma3.genruntimeconfig.cache
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma3\obj\Debug\net10.0\ref\PruebaPrograma3.dll

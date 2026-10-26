@@ -1,0 +1,30 @@
+﻿
+===== PROGRAMA 2: REGISTRAR PRODUCTO =====
+ 1. Registrar producto
+ 2. Ver productos
+ 3. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 3): 
+########## PRUEBAS - REGISTRAR PRODUCTO ##########
+  [OK]    Precio con IVA de 8.85 -> esperado: 10.00 | obtenido: 10.00
+  [OK]    Precio con IVA de 13.27 -> esperado: 15.00 | obtenido: 15.00
+  [OK]    Precio con IVA de 9.00 -> esperado: 10.17 | obtenido: 10.17
+  [OK]    Producto nuevo: referencia (pasa a mayúsculas) -> esperado: BEB-004 | obtenido: BEB-004
+  [OK]    Cantidad de productos -> esperado: 11 | obtenido: 11
+  [OK]    Referencia repetida -> esperado: True | obtenido: True
+  [OK]    Referencia repetida (minúsculas) -> esperado: True | obtenido: True
+  [OK]    Código de barras repetido -> esperado: True | obtenido: True
+  [OK]    Precio 0 -> esperado: True | obtenido: True
+  [OK]    Nombre vacío -> esperado: True | obtenido: True
+  [OK]    Cantidad de productos (sigue igual) -> esperado: 11 | obtenido: 11
+  [OK]    Producto sin código de barras -> esperado: True | obtenido: True
+
+Resultado: 12 de 12 pruebas correctas.
+
+===== PROGRAMA 2: REGISTRAR PRODUCTO =====
+ 1. Registrar producto
+ 2. Ver productos
+ 3. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 3): Hasta luego.
+

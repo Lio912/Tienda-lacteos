@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\bin\Debug\net10.0\PruebaPrograma2.exe
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\bin\Debug\net10.0\PruebaPrograma2.deps.json
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\bin\Debug\net10.0\PruebaPrograma2.runtimeconfig.json
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\bin\Debug\net10.0\PruebaPrograma2.dll
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\bin\Debug\net10.0\PruebaPrograma2.pdb
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\obj\Debug\net10.0\PruebaPrograma2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\obj\Debug\net10.0\PruebaPrograma2.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\obj\Debug\net10.0\PruebaPrograma2.AssemblyInfo.cs
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\obj\Debug\net10.0\PruebaPrograma2.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\obj\Debug\net10.0\PruebaPrograma2.dll
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\obj\Debug\net10.0\refint\PruebaPrograma2.dll
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\obj\Debug\net10.0\PruebaPrograma2.pdb
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\obj\Debug\net10.0\PruebaPrograma2.genruntimeconfig.cache
+C:\Users\hp\Desktop\competencia de lenguajes de programacion\_pruebas_dotnet\PruebaPrograma2\obj\Debug\net10.0\ref\PruebaPrograma2.dll

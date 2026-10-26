@@ -1,0 +1,58 @@
+﻿
+===== PROGRAMA 7: CÓDIGO DE BARRAS Y FACTURA =====
+ 1. Vender con lector de código de barras
+ 2. Ver productos, códigos y stock
+ 3. Ver facturas emitidas
+ 4. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 4): 
+########## PRUEBAS - CÓDIGO DE BARRAS Y FACTURA ##########
+  [OK]    Código de barras 7770000000036 -> esperado: BEB-003 | obtenido: BEB-003
+  [OK]    Código de barras que no existe -> esperado: True | obtenido: True
+
+=== FACTURA FA2610-0007 ===
+Cliente: Mark Flores
+Fecha: 2026-10-19 | Estado: Pagada | Pago: EFECTIVO
+  Ref       Descripción                        P.U.  Cant  Dto%       Base
+  BEB-001   Chicha de maní con leche 1 L       8.85     1     0       8.85
+  BEB-003   Kéfir natural 1 L                 13.27     1     0      13.27
+Base imponible: 22.12 Bs
+IVA 13%:        2.88 Bs
+TOTAL:          25.00 Bs
+Pagado:         25.00 Bs
+Resta por pagar: 0.00 Bs
+CAMBIO:         5.00 Bs
+  [OK]    Factura: referencia -> esperado: FA2610-0007 | obtenido: FA2610-0007
+  [OK]    Factura: base imponible -> esperado: 22.12 | obtenido: 22.12
+  [OK]    Factura: IVA -> esperado: 2.88 | obtenido: 2.88
+  [OK]    Factura: total -> esperado: 25.00 | obtenido: 25.00
+  [OK]    Factura: cambio -> esperado: 5.00 | obtenido: 5.00
+  [OK]    Factura: estado -> esperado: Pagada | obtenido: Pagada
+  [OK]    Stock de BEB-003 tras vender 1 -> esperado: 19 | obtenido: 19
+  [OK]    PEPS: el lote más antiguo de BEB-001 baja a -> esperado: 4 | obtenido: 4
+  [OK]    Repetidos: líneas -> esperado: 1 | obtenido: 1
+  [OK]    Repetidos: cantidad -> esperado: 2 | obtenido: 2
+  [OK]    Sin pago: no registra venta -> esperado: True | obtenido: True
+  [OK]    Sin pago: mensaje claro -> esperado: True | obtenido: True
+  [OK]    Sin pago: conserva stock -> esperado: 30 | obtenido: 30
+  [OK]    Pago insuficiente: no registra venta -> esperado: True | obtenido: True
+  [OK]    Pago insuficiente: stock intacto -> esperado: 12 | obtenido: 12
+  [OK]    Mayorista: descuento de la línea -> esperado: 10 | obtenido: 10
+  [OK]    Mayorista: base imponible -> esperado: 229.39 | obtenido: 229.39
+  [OK]    Mayorista: total -> esperado: 259.21 | obtenido: 259.21
+  [OK]    Mayorista: cambio de 300 -> esperado: 40.79 | obtenido: 40.79
+  [OK]    Stock insuficiente: no factura -> esperado: True | obtenido: True
+  [OK]    Stock insuficiente: mensaje -> esperado: Stock insuficiente de HEL-006. Revisa la cantidad disponible. | obtenido: Stock insuficiente de HEL-006. Revisa la cantidad disponible.
+  [OK]    Stock insuficiente: el stock no cambia -> esperado: 2 | obtenido: 2
+  [OK]    Sin cliente: no factura -> esperado: True | obtenido: True
+  [OK]    Sin productos: no factura -> esperado: True | obtenido: True
+
+Resultado: 26 de 26 pruebas correctas.
+
+===== PROGRAMA 7: CÓDIGO DE BARRAS Y FACTURA =====
+ 1. Vender con lector de código de barras
+ 2. Ver productos, códigos y stock
+ 3. Ver facturas emitidas
+ 4. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 4): Hasta luego.

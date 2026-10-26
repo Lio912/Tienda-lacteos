@@ -1,0 +1,34 @@
+﻿
+===== PROGRAMA 3: ENTRADAS Y SALIDAS (PEPS) =====
+ 1. Entrada de stock (nuevo lote)
+  2. Salida de stock por vencimiento (venta o merma)
+ 3. Ver productos, stock y lotes
+ 4. Ver movimientos
+ 5. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 5): 
+########## PRUEBAS - ENTRADAS Y SALIDAS PEPS ##########
+  [OK]    Stock inicial de BEB-001 -> esperado: 15 | obtenido: 15
+  [OK]    PEPS: lotes que quedan -> esperado: 1 | obtenido: 1
+  [OK]    PEPS: cantidad del lote restante -> esperado: 8 | obtenido: 8
+  [OK]    PEPS: vence el lote restante -> esperado: 2026-11-10 | obtenido: 2026-11-10
+  [OK]    PEPS: salida mayor al stock -> esperado: False | obtenido: False
+  [OK]    PEPS: el stock no cambió -> esperado: 8 | obtenido: 8
+  [OK]    Entrada de lote valido -> esperado: True | obtenido: True
+  [OK]    Entrada: cantidad de lotes -> esperado: 2 | obtenido: 2
+  [OK]    Entrada: stock total -> esperado: 32 | obtenido: 32
+  [OK]    Salida de un lote completo: lotes -> esperado: 1 | obtenido: 1
+  [OK]    Queda el lote nuevo de -> esperado: 20 | obtenido: 20
+  [OK]    Movimientos registrados -> esperado: 3 | obtenido: 3
+
+Resultado: 12 de 12 pruebas correctas.
+
+===== PROGRAMA 3: ENTRADAS Y SALIDAS (PEPS) =====
+ 1. Entrada de stock (nuevo lote)
+  2. Salida de stock por vencimiento (venta o merma)
+ 3. Ver productos, stock y lotes
+ 4. Ver movimientos
+ 5. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 5): Hasta luego.
+

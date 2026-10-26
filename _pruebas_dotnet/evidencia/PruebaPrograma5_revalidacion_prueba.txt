@@ -1,0 +1,50 @@
+﻿
+===== PROGRAMA 5: PRESUPUESTO (COTIZACIÓN) =====
+ 1. Generar presupuesto
+ 2. Ver productos y precios
+ 3. Ver presupuestos creados
+ 4. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 4): 
+########## PRUEBAS - DESCUENTOS Y PRESUPUESTO ##########
+  [OK]    Descuento con 11 u. -> esperado: 0 | obtenido: 0
+  [OK]    Descuento con 12 u. (mayorista) -> esperado: 10 | obtenido: 10
+  [OK]    Descuento manual 15% con 5 u. -> esperado: 15 | obtenido: 15
+  [OK]    Manual 5% con 30 u. (gana el mayorista) -> esperado: 10 | obtenido: 10
+  [OK]    Manual 15% con 30 u. (gana el manual) -> esperado: 15 | obtenido: 15
+
+=== PRESUPUESTO COT-0101 ===
+Cliente: Guardería Pequeños Pasos
+Fecha: 2026-10-19 | Válido hasta: 2026-11-03
+Estado: Validado (presupuesto abierto)
+  Ref       Descripción                        P.U.  Cant  Dto%       Base
+  LEC-011   Leche frutilla 1 L                 8.85    36    10     286.74
+  YOG-029   Yogur bebible maracuyá 1 L        10.62   100    10     955.80
+  LEC-002   Leche entera 2 L                  11.95    24    10     258.12
+Base imponible: 1500.66 Bs
+IVA 13%:        195.09 Bs
+TOTAL:          1695.75 Bs
+  [OK]    Presupuesto: referencia -> esperado: COT-0101 | obtenido: COT-0101
+  [OK]    Presupuesto: primera línea (36 x 8.85 con 10%) -> esperado: 286.74 | obtenido: 286.74
+  [OK]    Presupuesto: base imponible -> esperado: 1500.66 | obtenido: 1500.66
+  [OK]    Presupuesto: IVA -> esperado: 195.09 | obtenido: 195.09
+  [OK]    Presupuesto: total -> esperado: 1695.75 | obtenido: 1695.75
+  [OK]    Presupuesto: válido hasta -> esperado: 2026-11-03 | obtenido: 2026-11-03
+  [OK]    Repetidos: una sola línea -> esperado: 1 | obtenido: 1
+  [OK]    Sin descuento: base -> esperado: 26.54 | obtenido: 26.54
+  [OK]    Sin descuento: IVA -> esperado: 3.45 | obtenido: 3.45
+  [OK]    Sin descuento: total -> esperado: 29.99 | obtenido: 29.99
+  [OK]    Descuento manual: base -> esperado: 10.76 | obtenido: 10.76
+  [OK]    Descuento manual: total -> esperado: 12.16 | obtenido: 12.16
+  [OK]    Sin cliente -> esperado: True | obtenido: True
+  [OK]    Sin productos -> esperado: True | obtenido: True
+
+Resultado: 19 de 19 pruebas correctas.
+
+===== PROGRAMA 5: PRESUPUESTO (COTIZACIÓN) =====
+ 1. Generar presupuesto
+ 2. Ver productos y precios
+ 3. Ver presupuestos creados
+ 4. Ejecutar pruebas con resultados esperados
+ 0. Salir
+Opción (0 a 4): Hasta luego.
